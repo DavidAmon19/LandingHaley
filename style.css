@@ -1,0 +1,274 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Mate SC', serif;
+
+}
+
+body {
+    background-color: #191919;
+}
+
+section {
+    margin-bottom: 100px;
+}
+
+/* cabeçalho */
+
+.icons {
+    display: flex;
+    justify-content: first baseline;
+    padding-bottom: 10px;
+}
+
+.icons img {
+    padding: 5px;
+}
+
+.search {
+    width: 600px;
+    border: 1px solid #eb560d;
+    border-radius: 10px;
+    background-color: #eb560d;
+    padding: 5px;
+}
+
+.search a,
+label {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #191919;
+    cursor: pointer;
+}
+
+.search input {
+    width: 500px;
+    border-radius: 10px;
+}
+
+
+.content-img {
+    width: 250px;
+    height: 130px;
+
+}
+
+.content-div {
+    background-color: #191919;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-nav a {
+    margin-right: 30px;
+    padding: 10px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    border: 1px solid #eb560d;
+    background-color: #eb560d;
+
+
+}
+
+.content-nav a:hover {
+    background-color: #191919;
+    color: #ffffff;
+    font-size: 18px;
+    transition: all linear 0.3s;
+    font-weight: bold;
+}
+
+/* conteudo principal */
+
+#content-section1 {
+    background-image: url('./assets/principal.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
+
+.content-slide {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.content-slide img {
+    width: 400px;
+    height: 300px;
+}
+
+.content-slide div {
+    border: 1px solid #ffffff;
+}
+
+.content-slide p {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 30px;
+    padding-top: 10px;
+}
+
+
+.btn-slide {
+    display: block;
+
+    color: #ffffff;
+    padding: 20px;
+    border: 1px solid #eb560d;
+    background-color: #eb560d;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.btn-slide:hover {
+    background-color: #191919;
+    border: 1px solid #ffffff;
+    transition: all linear 0.3s;
+}
+
+#motocycle h2 {
+    text-align: center;
+    padding-bottom: 50px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+
+/* Services */
+
+/* #content-section2 {
+    background-image: url('./assets/cropped.jpg');
+    background-size:cover;
+    background-position: center;
+    height: 500px;
+} */
+
+.div-image {
+    border: 1px solid #ffffff;
+    width: 300px;
+    height: 500px;
+}
+
+#content-section2 {
+    background-color: #191919;
+}
+
+#content-section2 h2 {
+    text-align: center;
+    padding: 100px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+#services-motocycle {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#services-motocycle img {
+    width: 300px;
+    height: 250px;
+}
+
+#services-motocycle a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 22px;
+    border: 1px solid #eb560d;
+    background-color: #eb560d;
+    border-radius: 10px;
+    margin: 50px;
+    width: 200px;
+    padding: 10px;
+    color: #ffffff;
+}
+
+#services-motocycle a:hover {
+
+    border-bottom: 1px solid #eb560d;
+    border-radius: 10px;
+    background-color: #191919;
+    color: #ffffff;
+    transition: all linear 0.3s;
+
+}
+
+#services-motocycle p {
+    text-align: center;
+    width: 300px;
+    margin-top: 20px;
+    color: #ffffff;
+}
+
+/* History */
+
+.content-section3 {
+    display: flex;
+    background-color: #191919;
+}
+
+.image-content,
+.history-content {
+    width: 50%;
+}
+
+.image-content {
+    background-image: url('./assets/cropped.jpg');
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    margin-left: 30px;
+}
+
+.history-content p {
+    text-align: justify;
+    padding: 20px;
+    color: #ffffff;
+
+}
+
+.history-content h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+}
+
+/* Localização */
+
+.title {
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+.localizacao {
+    display: flex;
+
+    justify-content: center;
+}
+
+
+/* Rodapé */
+
+footer {
+    text-align: center;
+    color: #ffffff;
+    padding: 10px;
+    margin-top: 30px;
+    background-color: #5c5c5c;
+}
